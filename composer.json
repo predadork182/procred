@@ -1,0 +1,33 @@
+{
+    "name": "predadork182/procred",
+    "description":"Projeto para cadastro de convênios",
+    "minimum-stability": "alpha",
+    "license": "MIT",
+    "authors": [
+       {
+         "name":"Marcos Vinicius Souza Tavares",
+         "email": "suporte@getecnologia.com.br",
+         "role": "Developer",
+         "homepage": "https://getecnologia.com.br"
+       }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "~6.1",
+        "jupitern/table": "1.*",
+        "league/plates": "3.*",
+        "coffeecode/router": "^1.0",
+        "matthiasmullie/minify": "^1.3"
+    }
+}
